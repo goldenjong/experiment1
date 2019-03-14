@@ -1,0 +1,19 @@
+#include<iostream>
+#include<conio.h>
+
+using namespace std;
+
+double problem2(){
+	double mass, density;
+		 
+		cout << "Enter Mass: " << endl;
+		cin >> mass;
+		cout << "Enter Density: " << endl;
+		cin >> density;
+		cout << "Volume: " << mass / density << endl;
+		_getch();
+
+		return 0;
+
+}
+
